@@ -44,3 +44,27 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  color: #947843;
+  background-image: url(https://picsum.photos/id/1019/200/300/?blur=1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.project-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-self: center;
+  cursor: pointer;
+}
