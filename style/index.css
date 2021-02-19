@@ -48,11 +48,21 @@ table {
 
 body {
   font-family: 'Merriweather', serif;
-  color: #947843;
+  font-size: large;
+  color: #e99c0e;
   background-image: url(https://picsum.photos/id/1019/200/300/?blur=1);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+nav a {
+	display: flex;
+  justify-content: flex-end;
 }
 
 .header-image {
