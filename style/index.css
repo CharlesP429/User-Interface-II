@@ -1,1 +1,80 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: large;
+  color: #e99c0e;
+  background-image: url(https://picsum.photos/id/1019/200/300/?blur=1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+nav a {
+	display: flex;
+  justify-content: flex-end;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.project-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-self: center;
+  cursor: pointer;
+}
