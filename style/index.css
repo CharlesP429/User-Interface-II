@@ -46,24 +46,70 @@ table {
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-body {
+@media (max-width: 800px) {
+  
+  body {
+    background-color: lightblue;
+  }
+  
+  nav a {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    color: gold;
+  }
+  
+  img {
+    height: 250px;
+    width: 250px;
+  }
+  
+}
+
+@media (max-width: 500px) {
+  
+  h1 {
+    color: navy;
+    text-align: center;
+  }
+  
+  body {
+    background-color: #A9912E;
+  }
+  
+  nav a {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media (min-width: 800px) {
+  
+ body {
   font-family: 'Merriweather', serif;
-  font-size: large;
-  color: #e99c0e;
+  color: #947843;
   background-image: url(https://picsum.photos/id/1019/200/300/?blur=1);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
-h1 {
-  font-size: xx-large;
-}
-
-nav a {
+ nav a {
 	display: flex;
   justify-content: flex-end;
-}
+ }
+
 
 .header-image {
   display: flex;
@@ -77,4 +123,5 @@ nav a {
   flex-wrap: wrap;
   align-self: center;
   cursor: pointer;
+ }
 }
